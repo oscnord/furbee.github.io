@@ -1,0 +1,64 @@
+body,
+html {
+    background: rgb(0, 0, 0) !important;
+    height: 100%;
+}
+
+div.wrapper {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+    margin: auto;
+    height: 100%;
+}
+
+div.buttons {
+    text-align: center;
+}
+
+label.control-label {
+    color: white;
+}
+
+div.playbutton {
+    display: inline-block;
+}
+
+div.loadbutton {
+    display: inline-block;
+}
+
+.browse {
+    display: inline-block;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    height: 25vh;
+}
+
+#visualiser {
+    position: relative;
+    height: 75vh;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}

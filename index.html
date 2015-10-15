@@ -1,7 +1,71 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TFYA65 - Ljudprojekt</title>
+    <link type="text/css" href="css/main.css" rel="stylesheet">
+    <!-- Bootstrap css -->
+    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Dependencies -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="scripts/vendor/bootstrap.min.js"></script>
+    <script src="scripts/vendor/aurora.js"></script>
+    <script src="scripts/vendor/flac.js"></script>
+    <script src="scripts/vendor/three.min.js"></script>
+    <script src="scripts/vendor/Projectors.js"></script>
+    <script src="scripts/vendor/Stats.js"></script>
+    <script src="scripts/vendor/buffer-loader.js"></script>
+    <script src="scripts/vendor/GPUParticleSystem.js" ></script>
+    <!-- App scripts -->
+    <script src="scripts/app/audio.js"></script>
+    <script src="scripts/app/3dvis.js"></script>
+    <script src="scripts/app/app.js"></script>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I just met you and this is crazy, let's code something amazing!</p>
+    <div class="wrapper">
+        <div class="header">
+            <div class="buttons">
+                <div class="playbutton">
+                    <button type="button" class="btn btn-default btn-md" id="toggle">
+                        <span id="togglespan" class="glyphicon glyphicon-play" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <div class="loadbutton">
+                    <button type="button" class="btn btn-default btn-md" id="loadDefaultBtn">Load default </button>
+                </div>
+                <div class="browse">
+                    <span class="btn btn-default btn-file">
+                    Browse <input type="file" id="fileUpload">
+                </span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label">
+                    Filter setting
+                </label>
+                <div class="selectContainer">
+                    <select name="filter" class="form-control" id="filter">
+                        <option value="off">Off</option>
+                        <option value="distortion">Distortion</option>
+                        <option value="convolver">Reverb (Church)</option>
+                        <option value="bassboost">Bass Boost</option>
+                        <option value="trebleboost">Treble Boost</option>
+                        <option value="voiceboost">Voice Boost</option>
+                        <option value="lowpass">Lowpass filter (500 Hz)</option>
+                        <option value="highpass">Highpass filter (5000 Hz)</option>
+                        <option value="telephone">Bandpass (2000 Hz)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div id="visualiser"></div>
+    </div>
+    
 </body>
+
 </html>
