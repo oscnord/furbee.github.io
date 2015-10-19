@@ -1,67 +1,26 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TFYA65 - Ljudprojekt</title>
-    <link type="text/css" href="css/main.css" rel="stylesheet">
-    <!-- Bootstrap css -->
-    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Dependencies -->
-    <script src="scripts/vendor/aurora.js"></script>
-    <script src="scripts/vendor/flac.js"></script>
-    <script src="scripts/vendor/three.min.js"></script>
-    <script src="scripts/vendor/Stats.js"></script>
-    <script src="scripts/vendor/buffer-loader.js"></script>
-    <script src="scripts/vendor/GPUParticleSystem.js" ></script>
-    <!-- App scripts -->
-    <script src="scripts/app/audio.js"></script>
-    <script src="scripts/app/3dvis.js"></script>
-    <script src="scripts/app/app.js"></script>
-</head>
-
-<body>
-    <div class="wrapper">
-        <div class="header">
-            <div class="buttons">
-                <div class="playbutton">
-                    <button type="button" class="btn btn-default btn-md" id="toggle">
-                        <span id="togglespan" class="glyphicon glyphicon-play" aria-hidden="true"></span>
-                    </button>
-                </div>
-                <div class="loadbutton">
-                    <button type="button" class="btn btn-default btn-md" id="loadDefaultBtn">Load default </button>
-                </div>
-                <div class="browse">
-                    <span class="btn btn-default btn-file">
-                    Browse <input type="file" id="fileUpload">
-                </span>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="control-label">
-                    Filter setting
-                </label>
-                <div class="selectContainer">
-                    <select name="filter" class="form-control" id="filter">
-                        <option value="off">Off</option>
-                        <option value="distortion">Distortion</option>
-                        <option value="convolver">Reverb (Church)</option>
-                        <option value="bassboost">Bass Boost</option>
-                        <option value="trebleboost">Treble Boost</option>
-                        <option value="voiceboost">Voice Boost</option>
-                        <option value="lowpass">Lowpass filter (500 Hz)</option>
-                        <option value="highpass">Highpass filter (5000 Hz)</option>
-                        <option value="telephone">Bandpass (2000 Hz)</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-        <div id="visualiser"></div>
-    </div>
-    
-</body>
-
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+    <title>The Ostream</title>
+  </head>
+  <body style="background-color: #ffffff;">
+      <div style="text-align: center; margin: 15%;">
+        <svg width="551px" height="321.5px" viewBox="0 0 1102 642" version="1.1">
+            <title>The Ostream</title>
+            <defs></defs>
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                <path d="M1091,1 L1091,642 L0,530.054687 L0,93.9453125 L1091,1 Z" id="Rectangle-1-Copy" fill="#B9B9B9" sketch:type="MSShapeGroup"></path>
+                <path d="M1102,0 L1102,624 L0,530.054687 L0,93.9453125 L1102,0 Z" id="Rectangle-1" fill="#FFED00" sketch:type="MSShapeGroup"></path>
+                <text id="The" sketch:type="MSTextLayer" font-family="Roboto Condensed" font-size="50" font-style="condensed" font-weight="bold" fill="#000000">
+                    <tspan x="148" y="242">The</tspan>
+                </text>
+                <text id="ostream" sketch:type="MSTextLayer" font-family="Roboto Condensed" font-size="230" font-style="condensed" font-weight="bold" fill="#000000">
+                    <tspan x="186" y="374">ostream</tspan>
+                </text>
+            </g>
+        </svg>
+      </div>
+  </body>
 </html>
