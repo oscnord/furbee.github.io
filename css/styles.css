@@ -36,14 +36,28 @@ body{background-color:rgb(249, 61, 32);font:700 1.688em/1.38 Arial;color:rgb(255
 
 .text-6{margin-left:0.01302%;}
 
-@media(max-width: 784px) {
+@media(max-width: 790px) {
 body{font-size:1.688em;}
 
-.container{margin-left:4.37261%;}
+.container{margin-left:4.37104%;}
 
 .container-1{position:relative;z-index:5;margin-top:752px;}
 
 .container-2{position:relative;clear:both;z-index:8;margin-top:41px;}
 
 .container-3{clear:both;margin-top:41px;}
+
+.text-1{font-size:0.741em;}
+}
+
+@media(max-width: 522px) {
+body{font-size:1.688em;}
+
+.container{margin-left:4.37021%;}
+
+.container-1{position:relative;z-index:5;}
+
+.container-2{position:relative;z-index:8;}
+
+.text-1{left:1.3469827586%;right:auto;}
 }
