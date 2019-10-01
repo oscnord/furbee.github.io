@@ -1,0 +1,201 @@
+{
+    "trend": {
+
+        "rooms": [
+            {
+                "id": "1",
+                "title": "Exteriör",
+                "description": "This is a description of a Exterior",
+                "img": "./assets/img/Fiskarheden/trend/rooms/kitchen/Trend_Kok_01.jpg",
+                "thumb": "./assets/img/Fiskarheden/trend/rooms/kitchen/Trend_Kok_01.jpg",
+                "hotspot": [
+                    {
+                        "data": "floor",
+                        "x": "30%",
+                        "y": "85%"
+                    },
+                    {
+                        "data": "wall",
+                        "x": "59%",
+                        "y": "38%"
+                    }
+                ],
+                "options": {
+                    "rooftile": [
+                        {
+                            "title": "pink",
+                            "id": "wall_1",
+                            "description": "this wall is 1",
+                            "img": "url to img0",
+                            "thumb": "./assets/img/Fiskarheden/thumbs/floor/Birch.jpg"
+                        },
+                        {
+                            "title": "white",
+                            "id": "wall_2",
+                            "description": "this wall is 2",
+                            "img": "url to img1",
+                            "thumb": "./assets/img/Fiskarheden/thumbs/floor/Oak.jpg"
+                        },
+                        {
+                            "title": "green",
+                            "id": "wall_3",
+                            "description": "this wall is 2",
+                            "img": "url to img2",
+                            "thumb": "./assets/img/Fiskarheden/thumbs/floor/Birch.jpg"
+                        }
+                    ],
+                    "paint": [
+                        {
+                            "title": "Light oak",
+                            "id": "floor_1",
+                            "description": "Snow oak",
+                            "img": "./assets/img/Fiskarheden/trend/rooms/kitchen/floors/Trend_Kok_Golv_01.png",
+                            "thumb": "./assets/img/Fiskarheden/thumbs/floor-light-oak.jpg"
+                        },
+                        {
+                            "title": "Dark oak",
+                            "id": "floor_2",
+                            "description": "this floor is 2",
+                            "img": "./assets/img/Fiskarheden/trend/rooms/kitchen/floors/Trend_Kok_Golv_02.png",
+                            "thumb": "./assets/img/Fiskarheden/thumbs/floor-dark-oak.jpg"
+                        },
+                        {
+                            "title": "Oak",
+                            "id": "floor_2",
+                            "description": "this floor is 2",
+                            "img": "",
+                            "thumb": "./assets/img/Fiskarheden/thumbs/floor-oak.jpg"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "2",
+                "title": "Kök",
+                "description": "This is a description of a kitchen",
+                "img": "./assets/img/Fiskarheden/trend/rooms/kitchen/Trend_Kok_01.jpg",
+                "thumb": "./assets/img/Fiskarheden/trend/rooms/kitchen/Trend_Kok_01.jpg",
+                "hotspot": [
+                    {
+                        "data": "floor",
+                        "x": "30%",
+                        "y": "85%"
+                    },
+                    {
+                        "data": "wall",
+                        "x": "59%",
+                        "y": "38%"
+                    }
+                ],
+                "options": {
+                    "wall": [
+                        {
+                            "title": "pink",
+                            "id": "wall_1",
+                            "description": "this wall is 1",
+                            "img": "url to img0",
+                            "thumb": "./assets/img/Fiskarheden/thumbs/floor/Birch.jpg"
+                        },
+                        {
+                            "title": "white",
+                            "id": "wall_2",
+                            "description": "this wall is 2",
+                            "img": "url to img1",
+                            "thumb": "./assets/img/Fiskarheden/thumbs/floor/Oak.jpg"
+                        },
+                        {
+                            "title": "green",
+                            "id": "wall_3",
+                            "description": "this wall is 2",
+                            "img": "url to img2",
+                            "thumb": "./assets/img/Fiskarheden/thumbs/floor/Birch.jpg"
+                        }
+                    ],
+                    "floor": [
+                        {
+                            "title": "Light oak",
+                            "id": "floor_1",
+                            "description": "Snow oak",
+                            "img": "./assets/img/Fiskarheden/trend/rooms/kitchen/floors/Trend_Kok_Golv_01.png",
+                            "thumb": "./assets/img/Fiskarheden/thumbs/floor-light-oak.jpg"
+                        },
+                        {
+                            "title": "Dark oak",
+                            "id": "floor_2",
+                            "description": "this floor is 2",
+                            "img": "./assets/img/Fiskarheden/trend/rooms/kitchen/floors/Trend_Kok_Golv_02.png",
+                            "thumb": "./assets/img/Fiskarheden/thumbs/floor-dark-oak.jpg"
+                        },
+                        {
+                            "title": "Oak",
+                            "id": "floor_2",
+                            "description": "this floor is 2",
+                            "img": "",
+                            "thumb": "./assets/img/Fiskarheden/thumbs/floor-oak.jpg"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "3",
+                "title": "Badrum",
+                "description": "This is a description of a bathroom",
+                "img": "./assets/img/Fiskarheden/trend/rooms/kitchen/Trend_Kok_01.jpg",
+                "thumb": "./assets/img/Fiskarheden/trend/rooms/kitchen/Trend_Kok_01.jpg",
+                "hotspot": [
+                    {
+                        "data": "floor",
+                        "x": "87%",
+                        "y": "85%"
+                    },
+                    {
+                        "data": "wall",
+                        "x": "28%",
+                        "y": "30%"
+                    }
+                ],
+                "options": {
+                    "wall": [
+                        {
+                            "title": "walla",
+                            "id": "wall_1",
+                            "description": "this wall is 1",
+                            "img": "url to img0",
+                            "thumb": "./assets/img/Fiskarheden/thumbs/floor/Birch.jpg"
+                        },
+                        {
+                            "title": "white",
+                            "id": "wall_2",
+                            "description": "this wall is 2",
+                            "img": "url to img1",
+                            "thumb": "./assets/img/Fiskarheden/thumbs/floor/Oak.jpg"
+                        },
+                        {
+                            "title": "green",
+                            "id": "wall_3",
+                            "description": "this wall is 2",
+                            "img": "url to img2",
+                            "thumb": "./assets/img/Fiskarheden/thumbs/floor/Birch.jpg"
+                        }
+                    ],
+                    "floor": [
+                        {
+                            "title": "floorBirch",
+                            "id": "floor_1",
+                            "description": "this floor is 1",
+                            "img": "url to img0",
+                            "thumb": "./assets/img/Fiskarheden/thumbs/floor/Birch.jpg"
+                        },
+                        {
+                            "title": "floorOak",
+                            "id": "floor_2",
+                            "description": "this floor is 2",
+                            "img": "url to img1",
+                            "thumb": "./assets/img/Fiskarheden/thumbs/floor/Oak.jpg"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
