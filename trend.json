@@ -73,8 +73,8 @@
                 "id": "2",
                 "title": "Kök",
                 "description": "This is a description of a kitchen",
-                "img": "./assets/img/Fiskarheden/trend/rooms/kitchen/Trend_Kok_01.jpg",
-                "thumb": "./assets/img/Fiskarheden/trend/rooms/kitchen/Trend_Kok_01.jpg",
+                "img": "./assets/img/Fiskarheden/trend/rooms/kitchen/Trend_Konfigurator_Kok_003.jpg",
+                "thumb": "./assets/img/Fiskarheden/trend/rooms/kitchen/Trend_Konfigurator_Kok_003.jpg",
                 "hotspot": [
                     {
                         "data": "floor",
@@ -82,56 +82,84 @@
                         "y": "85%"
                     },
                     {
-                        "data": "wall",
+                        "data": "tile",
                         "x": "59%",
-                        "y": "38%"
+                        "y": "30%"
+                    },
+                    {
+                        "data": "countertop",
+                        "x": "29%",
+                        "y": "51%"
+                    },
+                    {
+                        "data": "cabinet",
+                        "x": "54%",
+                        "y": "62%"
                     }
                 ],
                 "options": {
-                    "wall": [
+                    "countertop": [
                         {
-                            "title": "pink",
-                            "id": "wall_1",
-                            "description": "this wall is 1",
-                            "img": "url to img0",
-                            "thumb": "./assets/img/Fiskarheden/thumbs/floor/Birch.jpg"
+                            "title": "Laminat 2256",
+                            "id": "countertop_1",
+                            "description": "",
+                            "img": "",
+                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/thumb/Laminat2256_Thumbnail.jpg"
                         },
                         {
-                            "title": "white",
-                            "id": "wall_2",
-                            "description": "this wall is 2",
-                            "img": "url to img1",
-                            "thumb": "./assets/img/Fiskarheden/thumbs/floor/Oak.jpg"
-                        },
-                        {
-                            "title": "green",
-                            "id": "wall_3",
-                            "description": "this wall is 2",
-                            "img": "url to img2",
-                            "thumb": "./assets/img/Fiskarheden/thumbs/floor/Birch.jpg"
+                            "title": "Ostronbeige",
+                            "id": "countertop_2",
+                            "description": "",
+                            "img": "./assets/img/Fiskarheden/Trend/rooms/kitchen/options/Trend_Konfigurator_Kok_003_Bankskiva.png",
+                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/thumb/Ostronbeige_Thumbnail.jpg"
                         }
                     ],
                     "floor": [
                         {
-                            "title": "Light oak",
+                            "title": "Pure ek robust",
                             "id": "floor_1",
-                            "description": "Snow oak",
-                            "img": "./assets/img/Fiskarheden/trend/rooms/kitchen/floors/Trend_Kok_Golv_01.png",
-                            "thumb": "./assets/img/Fiskarheden/thumbs/floor-light-oak.jpg"
-                        },
-                        {
-                            "title": "Dark oak",
-                            "id": "floor_2",
-                            "description": "this floor is 2",
-                            "img": "./assets/img/Fiskarheden/trend/rooms/kitchen/floors/Trend_Kok_Golv_02.png",
-                            "thumb": "./assets/img/Fiskarheden/thumbs/floor-dark-oak.jpg"
-                        },
-                        {
-                            "title": "Oak",
-                            "id": "floor_2",
-                            "description": "this floor is 2",
+                            "description": "",
                             "img": "",
-                            "thumb": "./assets/img/Fiskarheden/thumbs/floor-oak.jpg"
+                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/thumb/PureEkRobust_Thumbnail.jpg"
+                        },
+                        {
+                            "title": "Shade ek snow flake",
+                            "id": "floor_2",
+                            "description": "",
+                            "img": "./assets/img/Fiskarheden/Trend/rooms/kitchen/options/Trend_Konfigurator_Kok_003_Golv.png",
+                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/thumb/ShadeEkSnowFlake_Thumbnail.jpg"
+                        }
+                    ],
+                    "tile": [
+                        {
+                            "title": "Shade ek snow flake",
+                            "id": "tile_1",
+                            "description": "",
+                            "img": "",
+                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/thumb/Vit_Thumbnail.jpg"
+                        },
+                        {
+                            "title": "Mystone Ceppo Di Gre Greige",
+                            "id": "tile_2",
+                            "description": "",
+                            "img": "./assets/img/Fiskarheden/Trend/rooms/kitchen/options/Trend_Konfigurator_Kok_003_Kakel.png",
+                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/thumb/CeppoDiGre_Thumbnail.jpg"
+                        }
+                    ],
+                    "cabinet": [
+                        {
+                            "title": "Svart",
+                            "id": "cabinet_1",
+                            "description": "",
+                            "img": "",
+                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/thumb/Svart_Thumbnail.jpg"
+                        },
+                        {
+                            "title": "Ostronbeige",
+                            "id": "cabinet_2",
+                            "description": "",
+                            "img": "./assets/img/Fiskarheden/Trend/rooms/kitchen/options/Trend_Konfigurator_Kok_003_Luckor.png",
+                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/thumb/Ostronbeige_Thumbnail.jpg"
                         }
                     ]
                 }
