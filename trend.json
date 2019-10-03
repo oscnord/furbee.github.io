@@ -104,14 +104,14 @@
                             "id": "countertop_1",
                             "description": "",
                             "img": "",
-                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/thumb/Laminat2256_Thumbnail.jpg"
+                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/thumbs/Laminat2256_Thumbnail.jpg"
                         },
                         {
-                            "title": "Ostronbeige",
+                            "title": "Laminat 6370",
                             "id": "countertop_2",
                             "description": "",
                             "img": "./assets/img/Fiskarheden/Trend/rooms/kitchen/options/Trend_Konfigurator_Kok_003_Bankskiva.png",
-                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/thumb/Ostronbeige_Thumbnail.jpg"
+                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/thumbs/Ostronbeige_Thumbnail.jpg"
                         }
                     ],
                     "floor": [
@@ -120,14 +120,14 @@
                             "id": "floor_1",
                             "description": "",
                             "img": "",
-                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/thumb/PureEkRobust_Thumbnail.jpg"
+                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/thumbs/PureEkRobust_Thumbnail.jpg"
                         },
                         {
                             "title": "Shade ek snow flake",
                             "id": "floor_2",
                             "description": "",
                             "img": "./assets/img/Fiskarheden/Trend/rooms/kitchen/options/Trend_Konfigurator_Kok_003_Golv.png",
-                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/thumb/ShadeEkSnowFlake_Thumbnail.jpg"
+                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/thumbs/ShadeEkSnowFlake_Thumbnail.jpg"
                         }
                     ],
                     "tile": [
@@ -136,14 +136,14 @@
                             "id": "tile_1",
                             "description": "",
                             "img": "",
-                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/thumb/Vit_Thumbnail.jpg"
+                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/thumbs/Vit_Thumbnail.jpg"
                         },
                         {
                             "title": "Mystone Ceppo Di Gre Greige",
                             "id": "tile_2",
                             "description": "",
                             "img": "./assets/img/Fiskarheden/Trend/rooms/kitchen/options/Trend_Konfigurator_Kok_003_Kakel.png",
-                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/thumb/CeppoDiGre_Thumbnail.jpg"
+                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/thumbs/CeppoDiGre_Thumbnail.jpg"
                         }
                     ],
                     "cabinet": [
@@ -152,14 +152,14 @@
                             "id": "cabinet_1",
                             "description": "",
                             "img": "",
-                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/thumb/Svart_Thumbnail.jpg"
+                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/thumbs/Svart_Thumbnail.jpg"
                         },
                         {
                             "title": "Ostronbeige",
                             "id": "cabinet_2",
                             "description": "",
                             "img": "./assets/img/Fiskarheden/Trend/rooms/kitchen/options/Trend_Konfigurator_Kok_003_Luckor.png",
-                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/thumb/Ostronbeige_Thumbnail.jpg"
+                            "thumb": "./assets/img/Fiskarheden/Trend/rooms/thumbs/Ostronbeige_Thumbnail.jpg"
                         }
                     ]
                 }
@@ -168,8 +168,8 @@
                 "id": "3",
                 "title": "Badrum",
                 "description": "This is a description of a bathroom",
-                "img": "./assets/img/Fiskarheden/Trend/rooms/kitchen/Trend_Kok_01.jpg",
-                "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/Trend_Kok_01.jpg",
+                "img": "./assets/img/Fiskarheden/trend/rooms/kitchen/Trend_Kok_01.jpg",
+                "thumb": "./assets/img/Fiskarheden/trend/rooms/kitchen/Trend_Kok_01.jpg",
                 "hotspot": [
                     {
                         "data": "floor",
