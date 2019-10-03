@@ -73,7 +73,7 @@
                 "id": "2",
                 "title": "Kök",
                 "description": "This is a description of a kitchen",
-                "img": "./assets/img/Fiskarheden/trend/rooms/kitchen/Trend_Konfigurator_Kok_003.jpg",
+                "img": ".assets/img/Fiskarheden/Trend/rooms/kitchen/Trend_Konfigurator_Kok_003.jpg",
                 "thumb": "./assets/img/Fiskarheden/trend/rooms/kitchen/Trend_Konfigurator_Kok_003.jpg",
                 "hotspot": [
                     {
