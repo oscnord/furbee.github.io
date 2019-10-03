@@ -6,8 +6,8 @@
                 "id": "1",
                 "title": "Exteriör",
                 "description": "This is a description of a Exterior",
-                "img": "./assets/img/Fiskarheden/trend/rooms/kitchen/Trend_Kok_01.jpg",
-                "thumb": "./assets/img/Fiskarheden/trend/rooms/kitchen/Trend_Kok_01.jpg",
+                "img": "./assets/img/Fiskarheden/Trend/rooms/kitchen/Trend_Kok_01.jpg",
+                "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/Trend_Kok_01.jpg",
                 "hotspot": [
                     {
                         "data": "floor",
@@ -49,14 +49,14 @@
                             "title": "Light oak",
                             "id": "floor_1",
                             "description": "Snow oak",
-                            "img": "./assets/img/Fiskarheden/trend/rooms/kitchen/floors/Trend_Kok_Golv_01.png",
-                            "thumb": "./assets/img/Fiskarheden/thumbs/floor-light-oak.jpg"
+                            "img": "./assets/img/Fiskarheden/Trend/rooms/kitchen/floors/Trend_Kok_Golv_01.png",
+                            "thumb": "./assets/img/Fiskarheden/Thumbs/floor-light-oak.jpg"
                         },
                         {
                             "title": "Dark oak",
                             "id": "floor_2",
                             "description": "this floor is 2",
-                            "img": "./assets/img/Fiskarheden/trend/rooms/kitchen/floors/Trend_Kok_Golv_02.png",
+                            "img": "./assets/img/Fiskarheden/Trend/rooms/kitchen/floors/Trend_Kok_Golv_02.png",
                             "thumb": "./assets/img/Fiskarheden/thumbs/floor-dark-oak.jpg"
                         },
                         {
@@ -168,8 +168,8 @@
                 "id": "3",
                 "title": "Badrum",
                 "description": "This is a description of a bathroom",
-                "img": "./assets/img/Fiskarheden/trend/rooms/kitchen/Trend_Kok_01.jpg",
-                "thumb": "./assets/img/Fiskarheden/trend/rooms/kitchen/Trend_Kok_01.jpg",
+                "img": "./assets/img/Fiskarheden/Trend/rooms/kitchen/Trend_Kok_01.jpg",
+                "thumb": "./assets/img/Fiskarheden/Trend/rooms/kitchen/Trend_Kok_01.jpg",
                 "hotspot": [
                     {
                         "data": "floor",
