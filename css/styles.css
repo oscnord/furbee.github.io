@@ -12,6 +12,12 @@ body {
 	font-size: small;
 }
 
+.content {
+  max-width: 90%;
+  padding-top: 3%;
+  margin: auto;
+}
+
 .links {
 	font-weight: 500;
 	font-size: small;
