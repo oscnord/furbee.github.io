@@ -1,63 +1,38 @@
-body{background-color:rgb(249, 61, 32);font:700 1.688em/1.38 Arial;color:rgb(255, 255, 255);}
-
-.container{float:left;height:45px;margin-top:850px;}
-
-.container .text{float:left;font-size:0.741em;color:rgb(0, 0, 0);}
-
-.container .text:hover{color:rgb(125, 20, 3);}
-
-.element{float:left;clear:both;width:119px;height:5px;margin-top:12px;background-color:rgb(0, 0, 0);}
-
-.element:hover{background-color:rgb(0, 0, 0);}
-
-.text-1 p{margin-bottom:1em;}
-
-.container-1{position:relative;z-index:5;width:10%;margin-left:4.41667%;}
-
-.container-2{position:relative;z-index:8;width:9.8333333333%;margin-left:5%;}
-
-.container-3{width:10%;margin-left:4.66667%;}
-
-.element-2{margin-left:-0.84746%;}
-
-.element-3{margin-left:0.01302%;}
-
-.text-1{position:absolute;top:614px;right:12.83203125%;z-index:2;width:448px;font-size:1em;line-height:0.3;color:rgb(255, 255, 255);}
-
-.text-2{position:absolute;top:127px;left:5.1184895833%;z-index:1;font-size:2.963em;color:rgb(255, 255, 255);}
-
-.text-1:hover,.text-2:hover{color:rgb(255, 255, 255);}
-
-.text-3{position:absolute;top:54px;left:4.375%;font-size:2.963em;color:rgb(0, 0, 0);}
-
-.text-3:hover{color:rgb(0, 0, 0);}
-
-.text-5{margin-left:0.01324%;}
-
-.text-6{margin-left:0.01302%;}
-
-@media(max-width: 790px) {
-body{font-size:1.688em;}
-
-.container{margin-left:4.37104%;}
-
-.container-1{position:relative;z-index:5;margin-top:752px;}
-
-.container-2{position:relative;clear:both;z-index:8;margin-top:41px;}
-
-.container-3{clear:both;margin-top:41px;}
-
-.text-1{font-size:0.741em;}
+body {
+	font-family: 'Inter';
 }
 
-@media(max-width: 522px) {
-body{font-size:1.688em;}
+:root {
+	--columnGap: 4rem;
+	--rowGap: calc(var(--lineHeight) * 4);
+	--mainColor: #ff9800;
+}
 
-.container{margin-left:4.37021%;}
+.about {
+	font-size: small;
+}
 
-.container-1{position:relative;z-index:5;}
+.links {
+	font-weight: 500;
+	font-size: small;
+	color: black;
+}
+a {
+	background:
+	linear-gradient(
+		to bottom, var(--mainColor) 0%,
+		var(--mainColor) 100%
+		);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 4px 4px;
+	color: black;
+	text-decoration: none;
+	transition: background-size .2s;
+}
 
-.container-2{position:relative;z-index:8;}
-
-.text-1{left:1.3469827586%;right:auto;}
+a:hover {
+	color: black;
+	background-size: 4px 50px;
+}
 }
