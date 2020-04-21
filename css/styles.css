@@ -1,5 +1,7 @@
 body {
 	font-family: 'Inter';
+	background-color: black;
+  	color: white;
 }
 
 :root {
@@ -21,7 +23,6 @@ body {
 .links {
 	font-weight: 500;
 	font-size: small;
-	color: black;
 }
 a {
 	background:
@@ -32,13 +33,23 @@ a {
 	background-position: 0 100%;
 	background-repeat: repeat-x;
 	background-size: 4px 4px;
-	color: black;
+	color: #2D2D2D;
 	text-decoration: none;
 	transition: background-size .2s;
 }
-
 a:hover {
-	color: black;
+	color: #2D2D2D;
 	background-size: 4px 50px;
 }
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: black;
+  }
+}
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-color: #2D2D2D;
+    color: #F2F2F3;
+  }
 }
