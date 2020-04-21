@@ -1,7 +1,7 @@
 body {
 	font-family: 'Inter';
 	background-color: black;
-  	color: white;
+	color: white;
 }
 
 :root {
@@ -15,9 +15,9 @@ body {
 }
 
 .content {
-  max-width: 90%;
-  padding-top: 3%;
-  margin: auto;
+	max-width: 90%;
+	padding-top: 3%;
+	margin: auto;
 }
 
 .links {
@@ -33,23 +33,40 @@ a {
 	background-position: 0 100%;
 	background-repeat: repeat-x;
 	background-size: 4px 4px;
-	color: #2D2D2D;
+	color: black;
 	text-decoration: none;
 	transition: background-size .2s;
 }
 a:hover {
-	color: #2D2D2D;
+	color: black;
 	background-size: 4px 50px;
 }
 @media screen and (prefers-color-scheme: light) {
-  body {
-    background-color: white;
-    color: black;
-  }
+	body {
+		background-color: white;
+		color: black;
+	}
 }
 @media screen and (prefers-color-scheme: dark) {
-  body {
-    background-color: #2D2D2D;
-    color: #F2F2F3;
-  }
+	body {
+		background-color: #2D2D2D;
+		color: #F2F2F3;
+	}
+	a {
+		background:
+		linear-gradient(
+			to bottom, var(--mainColor) 0%,
+			var(--mainColor) 100%
+			);
+		background-position: 0 100%;
+		background-repeat: repeat-x;
+		background-size: 4px 4px;
+		color: #F2F2F3;
+		text-decoration: none;
+		transition: background-size .2s;
+	}
+	a:hover {
+		color: #F2F2F3;
+		background-size: 4px 50px;
+	}
 }
