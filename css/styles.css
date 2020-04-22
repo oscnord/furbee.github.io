@@ -44,7 +44,7 @@ a:hover {
 }
 @media screen and (prefers-color-scheme: light) {
 	body {
-		background-color: white;
+		background-color: #F2F2F3;
 		color: black;
 	}
 }
