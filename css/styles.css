@@ -1,7 +1,5 @@
 body {
-	font-family: 'Inter';
-	background-color: black;
-	color: white;
+	font-family: Inter;
 }
 
 :root {
@@ -10,20 +8,22 @@ body {
 	--mainColor: #ff9800;
 	--darkmodemaincolor: #C37331;
 }
-
 .about {
 	font-size: small;
 }
-
 .content {
 	max-width: 90%;
 	padding-top: 3%;
 	margin: auto;
 }
-
 .links {
 	font-weight: 500;
 	font-size: small;
+}
+.header {
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-weight: 900;
+	font-style: normal;
 }
 a {
 	background:
