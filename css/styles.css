@@ -46,7 +46,6 @@ body {
 	margin-right: 4rem;
 	width: 195px;
 }
-
 a {
 	background:
 	linear-gradient(
@@ -63,6 +62,12 @@ a {
 a:hover {
 	color: black;
 	background-size: 4px 50px;
+}
+@media screen and (max-width: 600px) {
+  .shadow {
+    visibility: hidden;
+    display: none;
+  }
 }
 @media screen and (prefers-color-scheme: light) {
 	body {
