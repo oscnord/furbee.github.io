@@ -13,10 +13,11 @@ body {
 	font-size: small;
 }
 .content {
-	max-width: 70%;
+	max-width: 55%;
 	padding-top: 3%;
 	margin: auto;
 }
+
 .links {
 	font-weight: 500;
 	font-size: small;
