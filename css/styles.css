@@ -13,9 +13,9 @@ body {
 	font-size: small;
 }
 .content {
-	max-width: 55%;
-	padding-top: 3%;
-	margin: auto;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 3%;
 }
 
 .links {
@@ -126,3 +126,4 @@ a:hover {
 		width: 195px;
 	}
 }
+
