@@ -283,7 +283,7 @@ r-grid > r-cell[span="row"] { grid-column: 1 / -1 }
   
   /* span-s=...+width, span-s=...-end */
   r-grid > r-cell[span-s$="+1"], r-grid > r-cell[span-s="1"] { --grid-ce: 1 }
-  r-grid > r-cell[span-s$="+2"], r-grid > r-cell[span-s$="-1"], r-grid > r-cell[span-s="2"] { --grid-ce: 2 }
+  /*r-grid > r-cell[span-s$="+2"], r-grid > r-cell[span-s$="-1"], r-grid > r-cell[span-s="2"] { --grid-ce: 2 }*/
   r-grid > r-cell[span-s$="+3"], r-grid > r-cell[span-s$="-2"], r-grid > r-cell[span-s="3"] { --grid-ce: 3 }
   r-grid > r-cell[span-s$="+4"], r-grid > r-cell[span-s$="-3"], r-grid > r-cell[span-s="4"] { --grid-ce: 4 }
   r-grid > r-cell[span-s$="+5"], r-grid > r-cell[span-s$="-4"], r-grid > r-cell[span-s="5"] { --grid-ce: 5 }
