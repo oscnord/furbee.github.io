@@ -74,11 +74,19 @@ li {
 	color: var(--textColor);
 }
 
+.bio-desktop {
+	display: block;
+}
+
+.intro-desktop {
+	display: block;
+}
+
 .bio-mobile {
 	display: none;
 }
 
-.bio-mobile {
+.intro-mobile {
 	display: none;
 }
 
@@ -112,7 +120,9 @@ a:hover {
 	.bio-mobile {
 		display: block;
 	}
-
+	.intro-mobile {
+		display: block;
+	}
 	.main {
 		padding-top: 50px;
 		padding-left: 5px;
@@ -176,7 +186,37 @@ a:hover {
 		color: var(--textColorDark);
 	}
 
+	.bio-desktop {
+		display: block;
+	}
+
+	.intro-desktop {
+		display: block;
+	}
+
+	.bio-mobile {
+		display: none;
+	}
+
+	.intro-mobile {
+		display: none;
+	}
+
 	@media (max-width: 640px) {
+		.bio-desktop {
+			display: none;
+		}
+
+		.intro-desktop {
+			display: none;
+		}
+
+		.bio-mobile {
+			display: block;
+		}
+		.intro-mobile {
+			display: block;
+		}
 		img {
 			border-radius: 3px;
 			width: 100%;
