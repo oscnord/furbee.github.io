@@ -105,7 +105,6 @@ a {
 a:hover {
 	background-size: 4px 60px;
 	color: var(--textColor);
-	font-weight: 900;
 }
 
 @media (max-width: 640px) {
