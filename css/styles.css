@@ -11,9 +11,9 @@ body {
 	--textColor: #1D1E1E;
 	--textColorDark: #f5f5f5;
 	--backgroundColorMain: #fdfdfd;
-	--backgroundColorBody: #333333;
+	--backgroundColorBody: #fdfdfd;
 	--backgroundColorMainDark: #333333;
-	--backgroundColorBodyDark: #1D1E1E;
+	--backgroundColorBodyDark: #333333;
 }
 
 html,
@@ -22,7 +22,7 @@ body {
 }
 
 .content {
-	width: 65%;
+	width: 70%;
 	margin: 0 auto;
 
 }
@@ -48,22 +48,22 @@ body {
 
 img {
 	border-radius: 3px;
-	width: 97%;
+	width: 96%;
 }
 
 /* Text */
 h1 {
 	color: var(--textColor);
-	font-weight: 700;
+	font-weight: 800;
 }
 
 h2 {
 	color: var(--textColor);
-	font-weight: 700;
+	font-weight: 800;
 }
 
 p {
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 1.5rem;
 	color: var(--textColor);
 }
@@ -107,7 +107,7 @@ a:hover {
 	color: var(--textColor);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1000px) {
 	.bio-desktop {
 		display: none;
 	}
@@ -201,7 +201,7 @@ a:hover {
 		display: none;
 	}
 
-	@media (max-width: 640px) {
+	@media (max-width: 1000px) {
 		.bio-desktop {
 			display: none;
 		}
@@ -244,5 +244,11 @@ a:hover {
 		li {
 			color: var(--textColorDark);
 		}
+	}
+}
+
+@media (max-width: 1500px) {
+	.content {
+		width: 100%;
 	}
 }
