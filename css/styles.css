@@ -40,6 +40,11 @@ body {
 	font-size: 1.3rem;
 }
 
+.link-list-mobile {
+	font-weight: 500;
+	font-size: 1.7rem;
+}
+
 .header {
 	font-family: neue-haas-grotesk-text, sans-serif;
 	font-weight: 900;
@@ -90,16 +95,18 @@ li {
 	display: none;
 }
 
-a {
-	background:
-		linear-gradient(to bottom, var(--mainColor) 0%,
-			var(--mainColor) 100%);
-	background-position: 0 100%;
-	background-repeat: repeat-x;
-	background-size: 3px 4px;
-	color: inherit;
+a.highlight {
+	font-weight: 500;
+	background: linear-gradient(104deg, rgba(255, 247, 130, 0) 0.9%, rgb(247, 231, 90, 1.25) 2.4%, rgb(255, 218, 51) 5.8%, 
+								rgba(253, 255, 130, 0.1) 93%, rgba(255, 252, 96, 0.7) 96%, rgba(130, 255, 1732,0) 98%), 
+								linear-gradient(183deg, rgba(232, 255, 130, 0.226) 0%, rgba(255, 219, 57, 0.438) 7.9%, rgba(243, 255, 130, 0) 15%);
+	padding: 0.em 13.7px;
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+	margin: 0;
+	border-radius: 9.5px;
 	text-decoration: none;
-	transition: background-size .2s;
+	text-shadow: -12px 12px 9.8px rgba(253, 255, 130, 0.7), 21px -18.1px 7.3px rgba(255, 255, 255,1), -18.1px -27.3px 30px rgba(255, 255, 255,1);
 }
 
 a:hover {
@@ -155,7 +162,7 @@ a:hover {
 	}
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
 	.main {
 		background-color: var(--backgroundColorMainDark);
 	}
@@ -245,7 +252,7 @@ a:hover {
 			color: var(--textColorDark);
 		}
 	}
-}
+} */
 
 @media (max-width: 1500px) {
 	.content {
