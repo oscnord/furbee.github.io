@@ -108,7 +108,47 @@ a:hover {
 	background-size: 4px 60px;
 	padding: 0.25em;
 	margin: 0 calc(-0.25em - 2px);
-	color: var(--backgroundColorBody);
+	color: var(--backgroundColorBodyDark);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	body {
+		background-color: rgb(21, 21, 21);
+	}
+	.main {
+		background-color: rgb(21, 21, 21);
+	}
+
+	/* Text */
+	h1 {
+		color: var(--textColorDark);
+		font-weight: 800;
+	}
+
+	h2 {
+		color: var(--textColorDark);
+		font-weight: 800;
+	}
+
+	p {
+		font-weight: 400;
+		font-size: 1.5rem;
+		color: var(--textColorDark);
+	}
+
+	li {
+		font-weight: 400;
+		font-size: 1.5rem;
+		color: var(--textColorDark);
+	}
+
+	a:hover {
+		background-color: var(--backgroundColorBody);
+		background-size: 4px 60px;
+		padding: 0.25em;
+		margin: 0 calc(-0.25em - 2px);
+		color: var(--backgroundColorBodyDark);
+	}
 }
 
 @media (max-width: 1000px) {
@@ -131,7 +171,6 @@ a:hover {
 		padding-left: 5px;
 		padding-right: 5px;
 		padding-bottom: 5px;
-		background-color: var(--backgroundColorMain);
 	}
 
 	.content {
