@@ -109,6 +109,7 @@ a:hover {
 	padding: 0.25em;
 	margin: 0 calc(-0.25em - 2px);
 	color: var(--backgroundColorBodyDark);
+	color: var(--backgroundColorMain);
 }
 
 @media screen and (prefers-color-scheme: dark) {
