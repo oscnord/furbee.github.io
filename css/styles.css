@@ -10,13 +10,16 @@ body {
 	--mainColor: #FF5B00;
 	--textColor: #1D1E1E;
 	--textColorDark: #f5f5f5;
-	--backgroundColorMain: #fdfdfd;
-	--backgroundColorBody: #fdfdfd;
-	--backgroundColorMainDark: #333333;
-	--backgroundColorBodyDark: #333333;
+	--backgroundColorMain: rgb(255, 255, 255);
+	--backgroundColorBody: rgb(246, 248, 250);
+	--backgroundColorMainDark: rgb(14, 17, 22);
+	--backgroundColorBodyDark: rgb(9, 10, 14);
 }
 
-html,
+html {
+	background-color: var(--backgroundColorBody);;
+}
+
 body {
 	background-color: var(--backgroundColorBody);
 }
@@ -83,6 +86,10 @@ li {
 	display: none;
 }
 
+.start-mobile {
+	display: none;
+}
+
 .intro-mobile {
 	display: none;
 }
@@ -113,11 +120,16 @@ a:hover {
 }
 
 @media screen and (prefers-color-scheme: dark) {
+	html {
+		background-color: var(--backgroundColorBodyDark);
+ 	}
+
 	body {
-		background-color: rgb(21, 21, 21);
+		background-color: var(--backgroundColorBodyDark);
 	}
+
 	.main {
-		background-color: rgb(21, 21, 21);
+		background-color: var(--backgroundColorMainDark);
 	}
 
 	/* Text */
@@ -153,12 +165,32 @@ a:hover {
 }
 
 @media (max-width: 1000px) {
+	body {
+		background-color: var(--backgroundColorBodyDark);
+	}
+
+	.main {
+		background-color: var(--backgroundColorBodyDark);
+	}
+	
 	.bio-desktop {
 		display: none;
 	}
 
+	.link-list-mobile {
+		text-align: center;
+	}
+
 	.intro-desktop {
 		display: none;
+	}
+
+	.start-desktop {
+		display: none;
+	}
+
+	.start-mobile {
+		display: block;
 	}
 
 	.bio-mobile {
