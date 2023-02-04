@@ -165,6 +165,10 @@ a:hover {
 }
 
 @media (max-width: 1000px) {
+	html {
+		background-color: var(--backgroundColorBodyDark);
+ 	}
+
 	body {
 		background-color: var(--backgroundColorBodyDark);
 	}
